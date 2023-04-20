@@ -1,9 +1,9 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -46,7 +46,10 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
 
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    --primary-glow: radial-gradient(
+      rgba(1, 65, 255, 0.4),
+      rgba(182, 183, 187, 0)
+    );
     --secondary-glow: linear-gradient(
       to bottom right,
       rgba(1, 65, 255, 0),
@@ -98,6 +101,12 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 0.7rem;
+  letter-spacing: -0.2rem;
 }
 
 @media (prefers-color-scheme: dark) {
