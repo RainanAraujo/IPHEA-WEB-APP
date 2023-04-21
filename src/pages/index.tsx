@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,8 +16,8 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
-          <h1 className={inter.className}>Instituto IPHEA</h1>
-          <p className={inter.className}>Em construção, aguarde novidades!</p>
+          <Image src="/iphea.svg" alt="IPHEA_LOGO" width={500} height={300} />
+          <h1 className={inter.className}>Em construção, aguarde novidades!</h1>
         </div>
       </main>
     </>
