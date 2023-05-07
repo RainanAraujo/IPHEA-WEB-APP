@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,7 +10,35 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+
+      <div className="container  py-4 mt-7 sm:mt-12">
+        <section className="presentation">
+          <div className="flex space-x-4 ...">
+            <div className="flex items-center justify-center space-x-10">
+              <div className="titulo">
+                <h1 className="text-3xl font-bold">
+                  Instituto para o Progresso Humano,Econômico e Ambiental
+                </h1>
+                <h2 className="text-gray-500">Subtítulo da Sessão</h2>
+              </div>
+              <div className="fig"></div>
+            </div>
+          </div>
+        </section>
+        <section className="options">
+          <div className="groupCards">
+            <div className="card"></div>
+            <div className="card"></div>
+            <div className="card"></div>
+            <div className="card"></div>
+          </div>
+          <footer>
+            <div className="footer">
+              <p>© 2023 IPHEA | Todos os Direitos Reservados</p>
+            </div>
+          </footer>
+        </section>
+      </div>
     </>
   );
 }
