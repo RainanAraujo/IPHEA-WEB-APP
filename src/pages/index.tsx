@@ -10,35 +10,33 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-
-      <div className="container  py-4 mt-7 sm:mt-12">
-        <section className="presentation">
-          <div className="flex space-x-4 ...">
-            <div className="flex items-center justify-center space-x-10">
-              <div className="titulo">
-                <h1 className="text-3xl font-bold">
-                  Instituto para o Progresso Humano,Econômico e Ambiental
-                </h1>
-                <h2 className="text-gray-500">Subtítulo da Sessão</h2>
-              </div>
-              <div className="fig"></div>
-            </div>
+      <main className="h-screen flex flex-col justify-between">
+        <header className="w-full h-24 ">
+          <div className="max-w-7xl w-full m-auto">asdfas</div>
+        </header>
+        <section className="max-w-7xl w-full flex justify-between m-auto">
+          <div className="w-1/2">
+            <h1 className="text-3xl font-bold">
+              Instituto para o Progresso Humano,Econômico e Ambiental
+            </h1>
+            <h2 className="text-gray-500">Subtítulo da Sessão</h2>
           </div>
+          <div className="w-1/2 bg-black"></div>
         </section>
-        <section className="options">
-          <div className="groupCards">
-            <div className="card"></div>
-            <div className="card"></div>
-            <div className="card"></div>
-            <div className="card"></div>
+        <section className="bg-slate-900">
+          <div className="">
+            <div className=""></div>
+            <div className=""></div>
+            <div className=""></div>
+            <div className=""></div>
           </div>
-          <footer>
-            <div className="footer">
+          <footer className="">
+            <div className="">
               <p>© 2023 IPHEA | Todos os Direitos Reservados</p>
             </div>
           </footer>
         </section>
-      </div>
+      </main>
     </>
   );
 }
