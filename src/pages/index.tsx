@@ -11,8 +11,19 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <main className="h-screen flex flex-col justify-between">
-        <header className="w-full h-24 ">
-          <div className="max-w-7xl w-full m-auto">asdfas</div>
+        <header className="w-full max-w-7xl  flex flex-wrap justify-between items-center p-6">
+          <div className="">
+            {" "}
+            <Image
+              width={100}
+              height={100}
+              src="/images/logoiphea.svg"
+              alt=""
+            ></Image>
+          </div>
+          <div className="">
+            <button>Área do Colaborador</button>
+          </div>
         </header>
         <section className="max-w-7xl w-full flex justify-between m-auto">
           <div className="w-1/2">
@@ -21,17 +32,52 @@ export default function Home() {
             </h1>
             <h2 className="text-gray-500">Subtítulo da Sessão</h2>
           </div>
-          <div className="w-1/2 bg-black"></div>
-        </section>
-        <section className="bg-slate-900">
-          <div className="">
-            <div className=""></div>
-            <div className=""></div>
-            <div className=""></div>
-            <div className=""></div>
+          <div className="w-1/2">
+            <Image
+              src="/images/ipheaimg.png"
+              width={500}
+              height={1}
+              alt=""
+            ></Image>
           </div>
-          <footer className="">
-            <div className="">
+        </section>
+        <section className="text-white w-full bg-slate-900 h-24 flex flex-col gap-4">
+          <div className="flex justify-between m-auto flex-row gap-5">
+            <div className="w-40 bg-none border-solid border-2 border-sky-600 rounded-md">
+              <figure></figure>
+              <h3>Institucional</h3>
+              <div className="flex justify-between">
+                <p>Acessar</p>
+                <figure></figure>
+              </div>
+            </div>
+            <div className="w-40 bg-none border-solid border-2 border-sky-600 rounded-md">
+              <figure></figure>
+              <h3>Institucional</h3>
+              <div className="flex justify-between">
+                <p>Acessar</p>
+                <figure></figure>
+              </div>
+            </div>
+            <div className="w-40 bg-none border-solid border-2 border-sky-600 rounded-md">
+              <figure></figure>
+              <h3>Institucional</h3>
+              <div className="flex justify-between">
+                <p>Acessar</p>
+                <figure></figure>
+              </div>
+            </div>
+            <div className="w-40 bg-none border-solid border-2 border-sky-600 rounded-md">
+              <figure></figure>
+              <h3>Institucional</h3>
+              <div className="flex justify-between">
+                <p>Acessar</p>
+                <figure></figure>
+              </div>
+            </div>
+          </div>
+          <footer className="flex justify-center ">
+            <div className="text-white m-auto">
               <p>© 2023 IPHEA | Todos os Direitos Reservados</p>
             </div>
           </footer>
