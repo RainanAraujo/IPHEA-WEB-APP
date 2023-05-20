@@ -1,5 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
+import {
+  CaretRight,
+  At,
+  Newspaper,
+  ListChecks,
+  Handshake,
+} from "phosphor-react";
 
 export default function Home() {
   return (
@@ -11,22 +18,23 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <main className="h-screen flex flex-col justify-between">
-        <header className="w-full max-w-7xl  flex flex-wrap justify-between items-center p-6">
-          <div className="">
-            {" "}
-            <Image
-              width={100}
-              height={100}
-              src="/images/logoiphea.svg"
-              alt=""
-            ></Image>
-          </div>
-          <div className="">
-            <button>Área do Colaborador</button>
+        <header className="w-full ">
+          <div className="max-w-7xl px-20 flex flex-wrap justify-between items-center p-6">
+            <div className="">
+              <Image
+                width={100}
+                height={100}
+                src="/images/logoiphea.svg"
+                alt=""
+              ></Image>
+            </div>
+            <div className="bg-blue-900 text-white p-2 rounded-md">
+              <button>Área do Colaborador</button>
+            </div>
           </div>
         </header>
-        <section className="max-w-7xl w-full flex justify-between m-auto">
-          <div className="w-1/2">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20">
+          <div className="w-1/2 m-auto">
             <h1 className="text-3xl font-bold">
               Instituto para o Progresso Humano,Econômico e Ambiental
             </h1>
@@ -41,47 +49,60 @@ export default function Home() {
             ></Image>
           </div>
         </section>
-        <section className="text-white w-full bg-slate-900 h-24 flex flex-col gap-4">
+        <section className="text-white w-full bg-slate-900 flex flex-col p-12">
           <div className="flex justify-between m-auto flex-row gap-5">
-            <div className="w-40 bg-none border-solid border-2 border-sky-600 rounded-md">
-              <figure></figure>
-              <h3>Institucional</h3>
-              <div className="flex justify-between">
-                <p>Acessar</p>
-                <figure></figure>
+            <div className="min-w-min p-3 bg-none border-solid border-2 border-sky-600 rounded-md flex justify-between gap-4">
+              <At width={32} height={32} color="#ffff" className="m-auto" />
+              <div className="m-auto text-xl">
+                <h3>Institucional</h3>
+                <div className="flex flex-row gap-3 text-base items-center ">
+                  <p>Acessar</p>
+                  <CaretRight width={16} height={16} color="#ffff" />
+                </div>
               </div>
             </div>
-            <div className="w-40 bg-none border-solid border-2 border-sky-600 rounded-md">
-              <figure></figure>
-              <h3>Institucional</h3>
-              <div className="flex justify-between">
-                <p>Acessar</p>
-                <figure></figure>
+            <div className="min-w-min p-3 bg-none border-solid border-2 border-sky-600 rounded-md flex justify-between gap-4">
+              <ListChecks
+                size={32}
+                height={32}
+                color="#ffff"
+                className="m-auto"
+              />
+              <div className="m-auto text-xl">
+                <h3>O que fazemos</h3>
+                <div className="flex flex-row gap-3 text-base items-center ">
+                  <p>Acessar</p>
+                  <CaretRight width={16} height={16} color="#ffff" />
+                </div>
               </div>
             </div>
-            <div className="w-40 bg-none border-solid border-2 border-sky-600 rounded-md">
-              <figure></figure>
-              <h3>Institucional</h3>
-              <div className="flex justify-between">
-                <p>Acessar</p>
-                <figure></figure>
+            <div className="min-w-min p-3 bg-none border-solid border-2 border-sky-600 rounded-md flex justify-between gap-4">
+              <Newspaper width={32} height={32} color="#ffff" />
+              <div className="m-auto text-xl">
+                <h3>Notícias</h3>
+                <div className="flex flex-row gap-3 text-base items-center ">
+                  <p>Acessar</p>
+                  <CaretRight size={16} height={16} color="#ffff" />
+                </div>
               </div>
             </div>
-            <div className="w-40 bg-none border-solid border-2 border-sky-600 rounded-md">
-              <figure></figure>
-              <h3>Institucional</h3>
-              <div className="flex justify-between">
-                <p>Acessar</p>
-                <figure></figure>
+            <div className="min-w-min p-3 bg-none border-solid border-2 border-sky-600 rounded-md flex justify-between gap-4">
+              <Handshake width={32} height={32} color="#ffff" />
+              <div className="m-auto text-xl">
+                <h3>Trabalhe conosco</h3>
+                <div className="flex flex-row gap-3 text-base items-center ">
+                  <p>Acessar</p>
+                  <CaretRight width={16} height={16} color="#ffff" />
+                </div>
               </div>
             </div>
           </div>
-          <footer className="flex justify-center ">
-            <div className="text-white m-auto">
-              <p>© 2023 IPHEA | Todos os Direitos Reservados</p>
-            </div>
-          </footer>
         </section>
+        <footer className="flex justify-center bg-slate-900 text-white">
+          <div className="text-white m-auto text-sm p-2">
+            <p>© 2023 IPHEA | Todos os Direitos Reservados</p>
+          </div>
+        </footer>
       </main>
     </>
   );
