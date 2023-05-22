@@ -35,7 +35,7 @@ export default function Home() {
         </header>
         <section className="max-w-7xl w-full flex justify-between m-auto px-20">
           <div className="w-1/2 m-auto">
-            <h1 className="text-3xl font-bold">
+            <h1 className="text-5xl font-extrabold  tracking-tighter">
               Instituto para o Progresso Humano,Econômico e Ambiental
             </h1>
             <h2 className="text-gray-500">Subtítulo da Sessão</h2>

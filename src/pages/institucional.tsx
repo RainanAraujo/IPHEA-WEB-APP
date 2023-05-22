@@ -1,17 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import {
-  CaretRight,
-  At,
-  Newspaper,
-  ListChecks,
-  Handshake,
-  Eye,
-  Planet,
-  DiamondsFour,
-  Diamond,
-  SketchLogo,
-} from "phosphor-react";
+import { Handshake, Eye, Planet, SketchLogo } from "phosphor-react";
 
 export default function Institucional() {
   return (
