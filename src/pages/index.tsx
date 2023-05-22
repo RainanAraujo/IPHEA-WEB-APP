@@ -18,8 +18,8 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <main className="h-screen flex flex-col justify-between">
-        <header className="w-full ">
-          <div className="max-w-7xl px-20 flex flex-wrap justify-between items-center p-6">
+        <header className="w-full max-w-7xl m-auto flex justify-end items-center gap-4 px-8">
+          <div className="w-full max-w-7xl px-20 flex flex-wrap justify-between items-center p-6  ">
             <div className="">
               <Image
                 width={100}
@@ -28,6 +28,7 @@ export default function Home() {
                 alt=""
               ></Image>
             </div>
+
             <div className="bg-blue-900 text-white p-2 rounded-md">
               <button>Área do Colaborador</button>
             </div>
