@@ -43,14 +43,14 @@ export default function Home() {
       <Head>
         <title>Instituto IPHEA</title>
       </Head>
-      <main className="h-screen flex flex-col justify-between">
+      <main className="h-screen ">
         <Header hideNav />
         <section
-          className="max-w-7xl w-full flex justify-between m-auto 
+          className="max-w-7xl w-full h-fit flex justify-between m-auto 
           items-center px-20 max-md:flex-wrap "
         >
           <div className="w-1/2 max-md:w-full">
-            <h1 className="text-5xl font-extrabold tracking-tighter leading-[1.15]">
+            <h1 className="text-5xl text-slate-900 font-extrabold tracking-tighter leading-[1.15]">
               Instituto para o <br /> Progresso Humano,
               <br /> Econômico e Ambiental
             </h1>
