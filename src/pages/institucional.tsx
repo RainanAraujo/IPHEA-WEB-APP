@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import ScrollToTop from "@/components/ScrollToTop";
 import Head from "next/head";
 import Image from "next/image";
 import { Handshake, Eye, Planet, SketchLogo, Target } from "phosphor-react";
@@ -9,7 +10,7 @@ export default function Institucional() {
       <Head>
         <title>Instituto IPHEA - Institucional</title>
       </Head>
-
+      <ScrollToTop />
       <main className="h-screen flex flex-col justify-between gap-32">
         <Header currentPage="institucional" />
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20">

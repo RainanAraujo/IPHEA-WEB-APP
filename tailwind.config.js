@@ -19,6 +19,20 @@ module.exports = {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
+      animation: {
+        fadeIn: "fadeIn 0.2s ease-in-out",
+        fadeOut: "fadeOut 0.2s ease-in-out",
+      },
+      keyframes: (theme) => ({
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        fadeOut: {
+          "0%": { opacity: 1 },
+          "100%": { opacity: 0 },
+        },
+      }),
     },
   },
   plugins: [],

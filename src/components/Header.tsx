@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { EnvelopeSimple, InstagramLogo, Phone } from "phosphor-react";
 
 interface HeaderProps {
   hideNav?: boolean;
@@ -12,7 +13,7 @@ export default function Header({ hideNav = false, currentPage }: HeaderProps) {
       <Link href="/">
         <Image width={120} height={120} src="/images/logoiphea.svg" alt="" />
       </Link>
-      {!hideNav && (
+      {!hideNav ? (
         <nav>
           <ul className="flex justify-between gap-2 ">
             <Link href="/" className={`hover:font-bold duration-200`}>
@@ -52,6 +53,33 @@ export default function Header({ hideNav = false, currentPage }: HeaderProps) {
             </Link>
           </ul>
         </nav>
+      ) : (
+        <div className="flex gap-3">
+          <Link
+            className="flex items-center duration-100 hover:font-semibold"
+            href={""}
+            target="_blank"
+          >
+            <Phone size={20} weight="fill" className="text-blue-900" />
+            <span className="ml-2">11 99999 9999</span>
+          </Link>
+          <Link
+            className="flex items-center duration-100 hover:font-semibold"
+            href={""}
+            target="_blank"
+          >
+            <EnvelopeSimple size={20} weight="fill" className="text-blue-900" />
+            <span className="ml-2">contato@iphea.org.br</span>
+          </Link>
+          <Link
+            className="flex items-center duration-100 hover:font-semibold"
+            href={"https://www.instagram.com/institutoiphea/"}
+            target="_blank"
+          >
+            <InstagramLogo size={20} weight="fill" className="text-blue-900 " />
+            <span className="ml-2">@institutoiphea</span>
+          </Link>
+        </div>
       )}
       <button
         className="bg-blue-900 text-sm text-white py-3 
