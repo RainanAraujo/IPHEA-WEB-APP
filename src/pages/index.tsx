@@ -68,6 +68,7 @@ export default function Home() {
           <div className="flex justify-between m-auto flex-row gap-5">
             {buttonsNav.map((button) => (
               <Link
+                key={button.title}
                 href={button.link}
                 className="min-w-[200px] p-3
                  bg-none border-solid border-2 
