@@ -61,7 +61,7 @@ export default function Home() {
             </h2>
           </div>
           <Image
-            src="/images/ipheaimg.png"
+            src="/images/imginicial.svg"
             width={500}
             height={1}
             alt=""

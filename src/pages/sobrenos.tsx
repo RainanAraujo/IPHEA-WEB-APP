@@ -27,14 +27,16 @@ export default function Oquefazemos() {
             <Image
               width={591}
               height={204}
-              src="/images/grafico.png"
+              src="/images/grafico.svg"
               alt=""
             ></Image>
           </div>
           <div className="w-1/2 m-auto flex flex-col gap-1">
             <h6 className="text-sm text-blue-900 font-bold">Nossos serviços</h6>
-            <h2 className="text-2xl font-bold">Gestão de serviços de Saúde</h2>
-            <p className="text-base ">
+            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px]">
+              Gestão de serviços de Saúde
+            </h2>
+            <p className="text-gray-500 text-base leading-7 mt-5 tracking-tighter">
               Atuamos com o objetivo de aprimorar a eficiência, qualidade e
               sustentabilidade dos serviços de saúde. Em parceria com
               instituições públicas e outros atores, desenvolvemos estratégias
@@ -52,10 +54,10 @@ export default function Oquefazemos() {
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20">
           <div className="w-1/2 m-auto flex flex-col gap-1">
             <h6 className="text-sm text-blue-900 font-bold">Nossos serviços</h6>
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px]">
               Atividades de assistência social
             </h2>
-            <p className="text-base ">
+            <p className="text-gray-500 text-base leading-7 mt-5 tracking-tighter">
               Nos dedicamos às Atividades de Assistência Social, com o propósito
               de promover a inclusão, o desenvolvimento e o bem-estar das
               comunidades vulneráveis. Em parceria com instituições públicas e
@@ -68,7 +70,7 @@ export default function Oquefazemos() {
             <Image
               width={591}
               height={204}
-              src="/images/grafico.png"
+              src="/images/grafico.svg"
               alt=""
             ></Image>
           </div>
@@ -78,16 +80,16 @@ export default function Oquefazemos() {
             <Image
               width={591}
               height={204}
-              src="/images/grafico.png"
+              src="/images/grafico.svg"
               alt=""
             ></Image>
           </div>
           <div className="w-1/2 m-auto flex flex-col gap-1">
             <h6 className="text-sm text-blue-900 font-bold">Nossos serviços</h6>
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px]">
               Atividades de proteção e preservação do meio ambiente.
             </h2>
-            <p className="text-base ">
+            <p className="text-gray-500 text-base leading-7 mt-5 tracking-tighter">
               Buscamos equilibrar o desenvolvimento humano e a sustentabilidade
               ambiental. Colaboramos com instituições públicas e comunidades
               locais para criar e implementar projetos e políticas voltadas ao
@@ -103,10 +105,10 @@ export default function Oquefazemos() {
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20">
           <div className="w-1/2 m-auto flex flex-col gap-1">
             <h6 className="text-sm text-blue-900 font-bold">Nossos serviços</h6>
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px]">
               Atividades de assistência e extensão rural.
             </h2>
-            <p className="text-base ">
+            <p className="text-gray-500 text-base leading-7 mt-5 tracking-tighter">
               Atuamos com o objetivo de apoiar e fortalecer comunidades rurais,
               promovendo o desenvolvimento sustentável e a inclusão social.
               Trabalhamos em conjunto com instituições públicas, organizações
@@ -123,7 +125,7 @@ export default function Oquefazemos() {
             <Image
               width={591}
               height={204}
-              src="/images/grafico.png"
+              src="/images/grafico.svg"
               alt=""
             ></Image>
           </div>
@@ -132,19 +134,21 @@ export default function Oquefazemos() {
         <section className="max-w-7xl w-full m-auto px-20 flex flex-col gap-4 ">
           <div className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-1">
             <h6 className="text-sm text-blue-900 font-bold">Nossos serviços</h6>
-            <h2 className="text-2xl font-bold">Atividades Culturais</h2>
+            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px]">
+              Atividades Culturais
+            </h2>
           </div>
           <div className="flex justify-between gap-20">
             <div className="w-1/2 m-auto">
               <Image
                 width={591}
                 height={204}
-                src="/images/grafico.png"
+                src="/images/grafico.svg"
                 alt=""
               ></Image>
             </div>
             <div className="w-1/2 m-auto flex flex-col gap-1">
-              <p className="text-base ">
+              <p className="text-gray-500 text-base leading-7 mt-5 tracking-tighter">
                 Nossa atuação busca valorizar a diversidade, a expressão
                 artística e o patrimônio cultural das comunidades. Colaboramos
                 com instituições públicas, artistas, educadores e organizações

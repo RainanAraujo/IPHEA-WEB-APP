@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Head from "next/head";
 import Image from "next/image";
-import { Handshake, Eye, Planet, SketchLogo } from "phosphor-react";
+import { Handshake, Eye, Planet, SketchLogo, Target } from "phosphor-react";
 
 export default function Institucional() {
   return (
@@ -17,13 +17,13 @@ export default function Institucional() {
             <Image
               width={591}
               height={204}
-              src="/images/grafico.png"
+              src="/images/grafico.svg"
               alt=""
             ></Image>
           </div>
-          <div className="w-1/2 m-auto flex flex-col gap-1">
+          <div className="w-[60%] m-auto flex flex-col gap-1">
             <h6 className="text-sm text-blue-900 font-bold">Sobre nós</h6>
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px]">
               Desenvolvimento Sustentável de Forma Equilibrada e Inclusiva
             </h2>
             <p className="text-base ">
@@ -39,7 +39,9 @@ export default function Institucional() {
             <h6 className="text-sm text-blue-900 font-bold">
               No que acreditamos
             </h6>
-            <h2 className="text-2xl font-bold">Desenvolvimento holístico</h2>
+            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px]">
+              Desenvolvimento holístico
+            </h2>
           </div>
           <div className="w-3/4 m-auto flex flex-col gap-1">
             <p className="text-base ">
@@ -54,8 +56,8 @@ export default function Institucional() {
             </p>
           </div>
         </section>
-        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-1">
-          <h1 className="font-bold text-2xl">
+        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-4">
+          <h1 className="text-4xl font-bold tracking-tighter leading-[50.41px]">
             Trazendo impacto positivo para o presente e o futuro
           </h1>
           <p className="">
@@ -67,14 +69,14 @@ export default function Institucional() {
         </section>
         <section className="max-w-7xl w-full m-auto px-20 flex justify-between gap-12">
           <div className="w-1/3 border-solid border-2 border-sky-100 rounded-md p-6   flex flex-col gap-2">
-            <Handshake
-              className="bg-sky-100 p-3 rounded-l-lg"
+            <Target
+              className="bg-sky-100 p-3 rounded-t-lg rounded-l-lg "
               width={60}
               height={60}
               color="#0c4a6e"
-            ></Handshake>
+            ></Target>
             <h3 className="text-slate-900 text-xl font-semibold">Missão</h3>
-            <p className="text-gray-500 text-base">
+            <p className="text-gray-500 text-base leading-7">
               Fomentar o desenvolvimento humano integral, por meio do
               aprimoramento das áreas sociais, de saúde, educação e cultura,
               promovendo práticas econômicas e ambientalmente sustentáveis, com
@@ -82,21 +84,21 @@ export default function Institucional() {
               gerações presentes e futuras.
             </p>
           </div>
-          <div className="w-1/3 text-center flex flex-col items-center gap-2">
+          <div className="w-1/3 text-center flex flex-col items-center gap-6">
             <Planet width={100} height={100} color="#22C55E"></Planet>
-            <h1 className="text-2xl font-extrabold  ">
+            <h1 className="text-4xl font-extrabold tracking-tighter leading-[50.41px]  ">
               Construindo um futuro inclusivo e sustentável
             </h1>
           </div>
           <div className="w-1/3 border-solid border-2 border-sky-100 rounded-md p-6 flex flex-col gap-2">
             <Eye
-              className="bg-green-100 p-3 rounded-l-lg"
+              className="bg-green-100 p-3 rounded-t-lg rounded-l-lg "
               width={60}
               height={60}
               color="#22C55E"
             ></Eye>
             <h3 className="text-slate-900 text-xl font-semibold">Missão</h3>
-            <p className="text-gray-500 text-base">
+            <p className="text-gray-500 text-base leading-7">
               Fomentar o desenvolvimento humano integral, por meio do
               aprimoramento das áreas sociais, de saúde, educação e cultura,
               promovendo práticas econômicas e ambientalmente sustentáveis, com
@@ -106,17 +108,17 @@ export default function Institucional() {
           </div>
         </section>
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-3">
-          <div className="w-1/3 items-center flex flex-col gap-2 ">
+          <div className="w-1/3 items-center flex flex-col gap-6 m-auto">
             <SketchLogo
-              className=" bg-sky-100 p-3 rounded-l-lg"
-              width={60}
-              height={60}
-              color="#0c4a6e"
+              className=" bg-sky-100 p-3 rounded-t-lg rounded-l-lg  "
+              width={64}
+              height={64}
+              color="#3B82F6"
             ></SketchLogo>
-            <h2 className="text-2xl font-bold">Valores</h2>
+            <h2 className="text-4xl font-bold tracking-tighter">Valores</h2>
           </div>
           <div className="w-3/4 ">
-            <ul className="list-disc leading-6 text-base">
+            <ul className="list-disc leading-10 text-base tracking-tighter text-gray-500">
               <li>
                 <span className="font-bold"> Foco no ser humano:</span>{" "}
                 Priorizamos o bem-estar e desenvolvimento integral das pessoas.
@@ -150,13 +152,13 @@ export default function Institucional() {
           </div>
         </section>
         <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-6">
-          <h1 className="">
+          <h1 className="text-gray-500 tracking-tighter leading-6">
             No IPHEA, nossa atuação se concentra no desenvolvimento e
             fortalecimento de parcerias que resultem em avanços significativos
             nas áreas de políticas públicas, saúde, educação, cultura,
             assistência social e e sustentabilidade ambiental.
           </h1>
-          <p className="font-bold ">
+          <p className="font-bold leading-6 tracking-tighter ">
             Junte-se a nós na busca por um mundo mais justo, próspero e
             sustentável, onde o progresso humano, econômico e ambiental caminham
             lado a lado.
