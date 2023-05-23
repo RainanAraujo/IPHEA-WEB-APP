@@ -18,10 +18,10 @@ export default function Oquefazemos() {
   return (
     <>
       <Head>
-        <title>Instituto IPHEA</title>
+        <title>Instituto IPHEA - Sobre Nós</title>
       </Head>
       <main className="h-screen flex flex-col justify-between gap-32">
-        <Header />
+        <Header currentPage="sobrenos" />
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20">
           <div className="w-1/2 m-auto">
             <Image
