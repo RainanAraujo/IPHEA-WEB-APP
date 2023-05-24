@@ -13,7 +13,7 @@ export default function Institucional() {
       <ScrollToTop />
       <main className="h-screen flex flex-col justify-between gap-32">
         <Header currentPage="institucional" />
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:p-0">
           <div className="w-1/2 m-auto">
             <Image
               width={591}
@@ -22,7 +22,7 @@ export default function Institucional() {
               alt=""
             ></Image>
           </div>
-          <div className="w-[60%] m-auto flex flex-col gap-1">
+          <div className="w-[60%] m-auto flex flex-col gap-1 max-md:text-center">
             <h6 className="text-sm text-blue-900 font-bold">Sobre nós</h6>
             <h2 className="text-4xl font-bold tracking-tighter leading-[1.4]">
               Desenvolvimento Sustentável de Forma Equilibrada e Inclusiva
@@ -35,8 +35,8 @@ export default function Institucional() {
             </p>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20">
-          <div className="w-1/3 ">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center">
+          <div className="w-1/3 max-md:text-center max-md:w-full ">
             <h6 className="text-sm text-blue-900 font-bold">
               No que acreditamos
             </h6>
@@ -44,7 +44,7 @@ export default function Institucional() {
               Desenvolvimento holístico
             </h2>
           </div>
-          <p className=" w-3/4 text-base text-gray-500 leading-[1.52]">
+          <p className=" w-3/4 text-base text-gray-500 leading-[1.52] max-md:text-center">
             Acreditamos que a chave para um futuro melhor e mais próspero reside
             em enfrentar os desafios de nossa época de maneira holística e
             inclusiva, colocando o ser humano no centro de nossas ações. Por
@@ -55,7 +55,7 @@ export default function Institucional() {
             ambientalmente sustentáveis.
           </p>
         </section>
-        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-4">
+        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-4 max-md:p-0">
           <h1 className="text-4xl font-bold tracking-tighter leading-[1.4]">
             Trazendo impacto positivo para o presente e o futuro
           </h1>
@@ -66,7 +66,7 @@ export default function Institucional() {
             apenas para as gerações atuais, mas também para as futuras.
           </p>
         </section>
-        <section className="max-w-7xl w-full m-auto px-20 flex justify-between gap-12">
+        <section className="max-w-7xl w-full m-auto px-20 flex justify-between gap-12 max-md:flex-col max-md:p-0 max-md: max-md:items-center max-md:w-full">
           <div className="w-1/3 border-solid border-2 border-sky-100 rounded-md p-6 flex flex-col gap-2">
             <Target
               className="bg-sky-100 p-3 rounded-t-lg rounded-l-lg "
@@ -108,7 +108,7 @@ export default function Institucional() {
             </p>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-3">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-3 max-md:flex-wrap max-md:justify-center">
           <div className="w-1/3 items-center flex flex-col gap-6 m-auto">
             <SketchLogo
               className=" bg-sky-100 p-3 rounded-t-lg rounded-l-lg  "
@@ -119,7 +119,7 @@ export default function Institucional() {
             <h2 className="text-4xl font-bold tracking-tighter">Valores</h2>
           </div>
           <div className="w-3/4 ">
-            <ul className="list-disc leading-10 text-base tracking-tighter text-gray-500 ">
+            <ul className="list-disc leading-10 text-base tracking-tighter text-gray-500  ">
               <li>
                 <span className="font-bold text-gray-900">
                   Foco no ser humano:
@@ -156,7 +156,7 @@ export default function Institucional() {
             </ul>
           </div>
         </section>
-        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-6">
+        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-6 max-md:p-0">
           <h1 className="text-gray-500 tracking-tighter leading-[1.52]">
             No IPHEA, nossa atuação se concentra no desenvolvimento e
             fortalecimento de parcerias que resultem em avanços significativos
