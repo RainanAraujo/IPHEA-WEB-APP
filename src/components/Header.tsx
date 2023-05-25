@@ -55,7 +55,7 @@ export default function Header({ hideNav = false, currentPage }: HeaderProps) {
           </ul>
         </nav>
       )}
-      <div className="flex gap-4 md:gap-3">
+      <div className="flex gap-4 md:gap-3 md:hidden">
         <Link
           className="flex items-center duration-100 hover:font-semibold"
           href={""}
@@ -82,13 +82,16 @@ export default function Header({ hideNav = false, currentPage }: HeaderProps) {
         </Link>
       </div>
 
-      <button
-        className="bg-blue-900 text-sm text-white py-3 
+      <Link href={"/areacolaborador"}>
+        <button
+          className="bg-blue-900 text-sm text-white py-3 
         px-5 rounded-md hover:bg-blue-950 duration-200
         hidden md:block"
-      >
-        Área do Colaborador
-      </button>
+        >
+          Área do Colaborador
+        </button>
+      </Link>
+
       <MenuHamburger />
     </header>
   );
