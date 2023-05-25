@@ -11,9 +11,9 @@ export default function Institucional() {
         <title>Instituto IPHEA - Institucional</title>
       </Head>
       <ScrollToTop />
-      <main className="h-screen flex flex-col justify-between gap-20">
+      <main className="h-screen flex flex-col justify-between gap-20 max-md:m-0 max-md:gap-10 max-md:p-0">
         <Header currentPage="institucional" />
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:p-0">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:justify-center max-md:p-0 max-md:gap-4">
           <div className="w-1/2 m-auto">
             <Image
               width={591}
@@ -22,9 +22,9 @@ export default function Institucional() {
               alt=""
             ></Image>
           </div>
-          <div className="w-[60%] m-auto flex flex-col gap-1 max-md:text-center">
+          <div className="w-[60%] m-auto flex flex-col gap-1 max-md:w-[82%] max-md:text-center  ">
             <h6 className="text-sm text-blue-900 font-bold">Sobre nós</h6>
-            <h2 className="text-4xl font-bold tracking-tighter leading-[1.4]">
+            <h2 className="text-4xl font-bold tracking-tighter leading-[1.4]   ">
               Desenvolvimento Sustentável de Forma Equilibrada e Inclusiva
             </h2>
             <p className="text-base mt-3 text-gray-500 leading-[1.52]">
@@ -35,12 +35,12 @@ export default function Institucional() {
             </p>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center">
-          <div className="w-1/3 max-md:text-center max-md:w-full ">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4">
+          <div className="w-1/3 max-md:text-center max-md:w-full  ">
             <h6 className="text-sm text-blue-900 font-bold">
               No que acreditamos
             </h6>
-            <h2 className="text-4xl font-bold tracking-tighter leading-[1.4]">
+            <h2 className="text-4xl font-bold tracking-tighter leading-[1.4] max-md">
               Desenvolvimento holístico
             </h2>
           </div>
@@ -55,7 +55,7 @@ export default function Institucional() {
             ambientalmente sustentáveis.
           </p>
         </section>
-        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-4 max-md:p-0">
+        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-4 max-md:m-0 max-md:w-full max-md:justify-center max-md:p-9 ">
           <h1 className="text-4xl font-bold tracking-tighter leading-[1.4]">
             Trazendo impacto positivo para o presente e o futuro
           </h1>
@@ -67,7 +67,7 @@ export default function Institucional() {
           </p>
         </section>
         <section className="max-w-7xl w-full m-auto px-20 flex justify-between gap-12 max-md:flex-col max-md:p-0 max-md: max-md:items-center max-md:w-full">
-          <div className="w-1/3 border-solid border-2 border-sky-100 rounded-md p-6 flex flex-col gap-2">
+          <div className="w-1/3 border-solid border-2 border-sky-100 rounded-md p-6 flex flex-col gap-2 max-md:w-[80%] ">
             <Target
               className="bg-sky-100 p-3 rounded-t-lg rounded-l-lg "
               width={60}
@@ -91,7 +91,7 @@ export default function Institucional() {
               Construindo um futuro inclusivo e sustentável
             </h1>
           </div>
-          <div className="w-1/3 border-solid border-2 border-sky-100 rounded-md p-6 flex flex-col gap-2">
+          <div className="w-1/3 border-solid border-2 border-sky-100 rounded-md p-6 flex flex-col gap-2 max-md:w-[80%] ">
             <Eye
               className="bg-green-100 p-3 rounded-t-lg rounded-l-lg "
               width={60}
@@ -108,7 +108,7 @@ export default function Institucional() {
             </p>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-3 max-md:flex-wrap max-md:justify-center">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-3 max-md:flex-wrap max-md:justify-center  max-md:p-9">
           <div className="w-1/3 items-center flex flex-col gap-6 m-auto">
             <SketchLogo
               className=" bg-sky-100 p-3 rounded-t-lg rounded-l-lg  "
