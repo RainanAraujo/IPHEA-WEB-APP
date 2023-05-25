@@ -24,7 +24,11 @@ export default function TrabalheConosco() {
             action="https://formsubmit.co/ipheaprojetos@gmail.com"
             encType="multipart/form-data"
           >
-            <input type="hidden" name="_next" value="/#" />
+            <input
+              type="hidden"
+              name="_next"
+              value="iphea.org.br/areacolaborador"
+            />
             <fieldset className="flex flex-col gap-1 w-full">
               <label className="text-slate-900">Nome completo *</label>
               <input
