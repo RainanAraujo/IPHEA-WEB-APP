@@ -156,7 +156,7 @@ export default function Institucional() {
             </ul>
           </div>
         </section>
-        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-6 max-md:p-0">
+        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-6 max-md:m-0 max-md:w-full max-md:justify-center max-md:p-9 ">
           <h1 className="text-gray-500 tracking-tighter leading-[1.52]">
             No IPHEA, nossa atuação se concentra no desenvolvimento e
             fortalecimento de parcerias que resultem em avanços significativos
