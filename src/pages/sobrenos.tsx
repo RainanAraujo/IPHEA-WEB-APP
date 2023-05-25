@@ -119,7 +119,7 @@ export default function OQueFazemos() {
               humano e ambiental.
             </p>
           </div>
-          <div className="w-1/2 m-auto flex justify-center max-md:m-9">
+          <div className="w-1/2 m-auto flex justify-center max-md:w-full max-md:m-9">
             <Image
               width={591}
               height={204}
@@ -130,11 +130,11 @@ export default function OQueFazemos() {
         </section>
 
         <section className="max-w-7xl w-full m-auto px-20 flex flex-col gap-4 max-md:justify-center max-md:p-0 max-md:gap-4">
-          <div className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-1 max-md:w-[82%] max-md:text-center">
-            <h6 className="text-sm text-blue-900 font-bold max-md:text-center">
+          <div className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-1 max-md:w-[82%] max-md:text-center max-md:p-0">
+            <h6 className="text-sm text-blue-900 font-bold ">
               Nossos serviços
             </h6>
-            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px] mb-6 max-md:text-center">
+            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px] mb-6 ">
               Atividades Culturais
             </h2>
           </div>
