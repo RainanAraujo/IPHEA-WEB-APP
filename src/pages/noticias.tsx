@@ -15,6 +15,7 @@ export default function Noticias() {
 
   function extractDataPosts(data: any): Post[] {
     const dataItems = data.items;
+    if (!dataItems) return [];
     const array: Post[] = dataItems.map((item: any) => {
       const parser = new DOMParser();
       const doc = parser.parseFromString(item.content, "text/html");
