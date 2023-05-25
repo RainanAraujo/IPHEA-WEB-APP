@@ -10,14 +10,14 @@ export default function OQueFazemos() {
         <title>Instituto IPHEA - Sobre Nós</title>
       </Head>
       <ScrollToTop />
-      <main className="h-screen flex flex-col justify-between gap-32">
+      <main className="h-screen flex flex-col justify-between gap-20">
         <Header currentPage="sobrenos" />
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:p-0">
           <div className="w-1/2 m-auto">
             <Image
               width={591}
               height={204}
-              src="/images/grafico.svg"
+              src="/images/gestao_de_servicos.svg"
               alt=""
             ></Image>
           </div>
@@ -64,17 +64,17 @@ export default function OQueFazemos() {
             <Image
               width={591}
               height={204}
-              src="/images/grafico.svg"
+              src="/images/assistencia_social.svg"
               alt=""
             ></Image>
           </div>
         </section>
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:p-0">
-          <div className="w-1/2 m-auto">
+          <div className="w-1/2 m-auto  flex justify-center">
             <Image
-              width={591}
+              width={400}
               height={204}
-              src="/images/grafico.svg"
+              src="/images/meio_ambiente.svg"
               alt=""
             ></Image>
           </div>
@@ -119,11 +119,11 @@ export default function OQueFazemos() {
               humano e ambiental.
             </p>
           </div>
-          <div className="w-1/2 m-auto">
+          <div className="w-1/2 m-auto flex justify-center">
             <Image
               width={591}
               height={204}
-              src="/images/grafico.svg"
+              src="/images/agricultura.svg"
               alt=""
             ></Image>
           </div>
@@ -134,7 +134,7 @@ export default function OQueFazemos() {
             <h6 className="text-sm text-blue-900 font-bold max-md:text-center">
               Nossos serviços
             </h6>
-            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px] max-md:text-center">
+            <h2 className="text-4xl font-bold tracking-tighter leading-[50.41px] mb-6 max-md:text-center">
               Atividades Culturais
             </h2>
           </div>
@@ -143,7 +143,7 @@ export default function OQueFazemos() {
               <Image
                 width={591}
                 height={204}
-                src="/images/grafico.svg"
+                src="/images/cultura.svg"
                 alt=""
               ></Image>
             </div>
