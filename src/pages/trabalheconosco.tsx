@@ -26,6 +26,7 @@ export default function TrabalheConosco() {
             action="https://formsubmit.co/ipheaprojetos@gmail.com"
             encType="multipart/form-data"
           >
+            <input type="hidden" name="_next" value="/#" />
             <div className="flex gap-2 max-md:flex-wrap">
               <fieldset className="flex flex-col gap-1 w-full">
                 <label className="text-slate-900">Nome ou Empresa *</label>
