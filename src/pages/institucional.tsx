@@ -14,7 +14,7 @@ export default function Institucional() {
       <main className="h-screen flex flex-col justify-between gap-20 max-md:m-0 max-md:gap-10 max-md:p-0">
         <Header currentPage="institucional" />
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:justify-center max-md:p-0 max-md:gap-4">
-          <div className="w-1/2 m-auto">
+          <div className="w-1/2 m-auto max-md:w-full max-md:m-9">
             <Image
               width={591}
               height={204}
@@ -156,7 +156,7 @@ export default function Institucional() {
             </ul>
           </div>
         </section>
-        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-6 max-md:m-0 max-md:w-full max-md:justify-center max-md:p-9 ">
+        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-6 max-md:m-0 max-md:w-full max-md:justify-center max-md:p-9  ">
           <h1 className="text-gray-500 tracking-tighter leading-[1.52]">
             No IPHEA, nossa atuação se concentra no desenvolvimento e
             fortalecimento de parcerias que resultem em avanços significativos

@@ -13,7 +13,7 @@ export default function OQueFazemos() {
       <main className="h-screen flex flex-col justify-between gap-20">
         <Header currentPage="sobrenos" />
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4">
-          <div className="w-1/2 m-auto">
+          <div className="w-1/2 m-auto max-md:w-full max-md:m-9">
             <Image
               width={591}
               height={204}
@@ -60,7 +60,7 @@ export default function OQueFazemos() {
               necessidades básicas e promover a autonomia dos indivíduos.
             </p>
           </div>
-          <div className="w-1/2 m-auto">
+          <div className="w-1/2 m-auto max-md:w-full max-md:m-9">
             <Image
               width={591}
               height={204}
@@ -70,9 +70,9 @@ export default function OQueFazemos() {
           </div>
         </section>
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4">
-          <div className="w-1/2 m-auto  flex justify-center">
+          <div className="w-1/2 m-auto  flex justify-center max-md:w-full max-md:m-9">
             <Image
-              width={400}
+              width={591}
               height={204}
               src="/images/meio_ambiente.svg"
               alt=""
@@ -119,7 +119,7 @@ export default function OQueFazemos() {
               humano e ambiental.
             </p>
           </div>
-          <div className="w-1/2 m-auto flex justify-center">
+          <div className="w-1/2 m-auto flex justify-center max-md:m-9">
             <Image
               width={591}
               height={204}
@@ -139,7 +139,7 @@ export default function OQueFazemos() {
             </h2>
           </div>
           <div className="flex justify-between gap-20 max-md:flex-col max-md:gap-4 ">
-            <div className="w-1/2 m-auto">
+            <div className="w-1/2 m-auto max-md:w-full max-md:px-9 ">
               <Image
                 width={591}
                 height={204}

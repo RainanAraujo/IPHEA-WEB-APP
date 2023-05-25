@@ -49,7 +49,7 @@ export default function Home() {
           className="max-w-7xl w-full h-fit flex justify-between m-auto 
           items-center px-20 max-md:flex-wrap max-md:p-8 max-md:gap-4"
         >
-          <div className="w-1/2 max-md:w-full">
+          <div className="w-1/2 max-md:w-full max-md:text-center">
             <h1 className="text-5xl text-slate-900 font-extrabold tracking-tighter leading-[1.15]">
               Instituto para o <br /> Progresso Humano,
               <br /> Econômico e Ambiental
