@@ -14,7 +14,7 @@ export default function TrabalheConosco() {
         <div className="flex flex-col max-w-3xl w-full m-auto justify-center items-center gap-10 px-9">
           <div className="flex flex-col gap-5">
             <h1 className="text-2xl font-bold text-slate-900">
-              Área do colaborador
+              Solicitar declaração de vínculo
             </h1>
           </div>
 

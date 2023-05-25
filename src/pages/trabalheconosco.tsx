@@ -1,8 +1,6 @@
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import Head from "next/head";
-import { FormEvent, useEffect, useState } from "react";
-import handler from "./api/sendEmail";
 
 export default function TrabalheConosco() {
   return (
