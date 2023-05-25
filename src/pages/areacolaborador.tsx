@@ -9,7 +9,7 @@ export default function TrabalheConosco() {
         <title>Instituto IPHEA - Área do colaborador</title>
       </Head>
       <ScrollToTop />
-      <main className="min-h-screen h-full flex flex-col justify-between max-md:gap-10 gap-20">
+      <main className="min-h-screen h-full flex flex-col justify-between  max-md:gap-10 gap-20">
         <Header />
         <div className="flex flex-col max-w-3xl w-full m-auto justify-center items-center gap-10 px-9">
           <div className="flex flex-col gap-5">

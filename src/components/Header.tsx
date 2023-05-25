@@ -10,7 +10,7 @@ interface HeaderProps {
 
 export default function Header({ hideNav = false, currentPage }: HeaderProps) {
   return (
-    <header className="w-full max-w-7xl px-20 m-auto flex flex-wrap justify-between items-center p-6 max-md:p-8">
+    <header className="w-full max-w-7xl px-20 mx-auto flex flex-wrap justify-between items-center p-6 max-md:p-8">
       <Link href="/">
         <Image width={110} height={110} src="/images/logoiphea.svg" alt="" />
       </Link>
