@@ -10,7 +10,7 @@ export default function OQueFazemos() {
         <title>Instituto IPHEA - Sobre Nós</title>
       </Head>
       <ScrollToTop />
-      <main className="h-screen flex flex-col justify-between gap-20">
+      <main className="h-screen flex flex-col justify-between gap-20  max-md:gap-10">
         <Header currentPage="sobrenos" />
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4">
           <div className="w-1/2 m-auto max-md:w-full max-md:m-9">

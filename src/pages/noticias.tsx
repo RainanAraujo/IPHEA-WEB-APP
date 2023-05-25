@@ -55,7 +55,7 @@ export default function Noticias() {
       <main className="h-screen flex flex-col justify-between  max-md:gap-10 gap-20">
         <Header currentPage="noticias" />
 
-        <div className="flex flex-col max-w-3xl m-auto justify-center items-center gap-10 px-3">
+        <div className="flex flex-col max-w-3xl m-auto justify-center items-center gap-10 px-9">
           {posts &&
             posts.map((post, i) => (
               <div
