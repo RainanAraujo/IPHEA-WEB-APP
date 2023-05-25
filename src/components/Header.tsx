@@ -55,7 +55,7 @@ export default function Header({ hideNav = false, currentPage }: HeaderProps) {
           </ul>
         </nav>
       )}
-      <div className="flex gap-4 md:gap-3 md:hidden">
+      <div className={`flex gap-4 md:gap-3 ${!hideNav && "md:hidden"}`}>
         <Link
           className="flex items-center duration-100 hover:font-semibold"
           href={""}

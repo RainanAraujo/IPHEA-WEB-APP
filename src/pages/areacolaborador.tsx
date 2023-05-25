@@ -1,8 +1,6 @@
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import Head from "next/head";
-import { FormEvent, useEffect, useState } from "react";
-import handler from "./api/sendEmail";
 
 export default function TrabalheConosco() {
   return (
@@ -12,7 +10,7 @@ export default function TrabalheConosco() {
       </Head>
       <ScrollToTop />
       <main className="h-screen flex flex-col justify-between  max-md:gap-10 gap-20">
-        <Header currentPage="trabalheconosco" />
+        <Header />
         <div className="flex flex-col max-w-3xl w-full m-auto justify-center items-center gap-10 px-9">
           <div className="flex flex-col gap-5">
             <h1 className="text-2xl font-bold text-slate-900">
@@ -23,9 +21,10 @@ export default function TrabalheConosco() {
           <form
             className="flex flex-col w-full gap-5"
             method="POST"
-            action="https://formsubmit.co/mituxica@mailgolem.com"
+            action="https://formsubmit.co/ipheaprojetos@gmail.com"
             encType="multipart/form-data"
           >
+            <input type="hidden" name="_next" value="/#" />
             <fieldset className="flex flex-col gap-1 w-full">
               <label className="text-slate-900">Nome completo *</label>
               <input

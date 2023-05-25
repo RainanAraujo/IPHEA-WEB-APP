@@ -5,36 +5,6 @@ import { FormEvent, useEffect, useState } from "react";
 import handler from "./api/sendEmail";
 
 export default function TrabalheConosco() {
-  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    const name = formData.get("name") as string;
-    const cpfCnpj = formData.get("cpfCnpj") as string;
-    const email = formData.get("email") as string;
-    const phone = formData.get("phone") as string;
-    const message = formData.get("message") as string;
-    const whatsapp = formData.get("whatsapp") as string;
-    const type = formData.get("type") as string;
-    const file = formData.get("file");
-
-    const data = new FormData();
-    data.append("name", name);
-    data.append("cpfCnpj", cpfCnpj);
-    data.append("email", email);
-    data.append("phone", phone);
-    data.append("message", message);
-    data.append("whatsapp", whatsapp);
-    data.append("type", type);
-    if (file) {
-      data.append("file", file);
-    }
-    console.log(data);
-    const res = await fetch("/api/sendEmail", {
-      method: "POST",
-      body: data,
-    });
-    const json = await res.json();
-  }
   return (
     <>
       <Head>
@@ -52,7 +22,9 @@ export default function TrabalheConosco() {
 
           <form
             className="flex flex-col w-full gap-5"
-            onSubmit={(e) => handleSubmit(e)}
+            method="POST"
+            action="https://formsubmit.co/ipheaprojetos@gmail.com"
+            encType="multipart/form-data"
           >
             <div className="flex gap-2 max-md:flex-wrap">
               <fieldset className="flex flex-col gap-1 w-full">
