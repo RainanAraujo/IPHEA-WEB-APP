@@ -47,7 +47,7 @@ export default function Home() {
         <Header hideNav />
         <section
           className="max-w-7xl w-full h-fit flex justify-between m-auto 
-          items-center px-20 max-md:flex-wrap "
+          items-center px-20 max-md:flex-wrap max-md:p-8 max-md:gap-4"
         >
           <div className="w-1/2 max-md:w-full">
             <h1 className="text-5xl text-slate-900 font-extrabold tracking-tighter leading-[1.15]">
@@ -68,7 +68,7 @@ export default function Home() {
           ></Image>
         </section>
         <section className="text-white w-full bg-slate-900 flex flex-col p-12">
-          <div className="flex justify-between m-auto flex-row gap-5">
+          <div className="flex justify-between m-auto flex-row gap-5 max-md:flex-col">
             {buttonsNav.map((button) => (
               <Link
                 key={button.title}

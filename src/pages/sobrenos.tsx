@@ -12,7 +12,7 @@ export default function OQueFazemos() {
       <ScrollToTop />
       <main className="h-screen flex flex-col justify-between gap-20">
         <Header currentPage="sobrenos" />
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:p-0">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4">
           <div className="w-1/2 m-auto">
             <Image
               width={591}
@@ -21,7 +21,7 @@ export default function OQueFazemos() {
               alt=""
             ></Image>
           </div>
-          <div className="w-1/2 m-auto flex flex-col gap-1">
+          <div className="w-1/2 m-auto flex flex-col gap-1 max-md:w-[82%] max-md:text-center">
             <h6 className="text-sm text-blue-900 font-bold max-md:text-center">
               Nossos serviços
             </h6>
@@ -43,8 +43,8 @@ export default function OQueFazemos() {
             </p>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:p-0">
-          <div className="w-1/2 m-auto flex flex-col gap-1">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:justify-center max-md:p-0 max-md:gap-4">
+          <div className="w-1/2 m-auto flex flex-col gap-1 max-md:w-[82%] max-md:text-center">
             <h6 className="text-sm text-blue-900 font-bold max-md:text-center">
               Nossos serviços
             </h6>
@@ -69,7 +69,7 @@ export default function OQueFazemos() {
             ></Image>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:p-0">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4">
           <div className="w-1/2 m-auto  flex justify-center">
             <Image
               width={400}
@@ -78,7 +78,7 @@ export default function OQueFazemos() {
               alt=""
             ></Image>
           </div>
-          <div className="w-1/2 m-auto flex flex-col gap-1">
+          <div className="w-1/2 m-auto flex flex-col gap-1 max-md:w-[82%] max-md:text-center">
             <h6 className="text-sm text-blue-900 font-bold max-md:text-center">
               Nossos serviços
             </h6>
@@ -98,8 +98,8 @@ export default function OQueFazemos() {
             </p>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:p-0">
-          <div className="w-1/2 m-auto flex flex-col gap-1">
+        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:justify-center max-md:p-0 max-md:gap-4">
+          <div className="w-1/2 m-auto flex flex-col gap-1 max-md:w-[82%] max-md:text-center">
             <h6 className="text-sm text-blue-900 font-bold max-md:text-center">
               Nossos serviços
             </h6>
@@ -129,8 +129,8 @@ export default function OQueFazemos() {
           </div>
         </section>
 
-        <section className="max-w-7xl w-full m-auto px-20 flex flex-col gap-4 max-md:p-0">
-          <div className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-1">
+        <section className="max-w-7xl w-full m-auto px-20 flex flex-col gap-4 max-md:justify-center max-md:p-0 max-md:gap-4">
+          <div className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-1 max-md:w-[82%] max-md:text-center">
             <h6 className="text-sm text-blue-900 font-bold max-md:text-center">
               Nossos serviços
             </h6>
@@ -138,7 +138,7 @@ export default function OQueFazemos() {
               Atividades Culturais
             </h2>
           </div>
-          <div className="flex justify-between gap-20 max-md:flex-wrap max-md:p-0 ">
+          <div className="flex justify-between gap-20 max-md:flex-col max-md:gap-4 ">
             <div className="w-1/2 m-auto">
               <Image
                 width={591}
@@ -147,7 +147,7 @@ export default function OQueFazemos() {
                 alt=""
               ></Image>
             </div>
-            <div className="w-1/2 m-auto flex flex-col gap-1">
+            <div className="w-1/2 m-auto flex flex-col gap-1 max-md:w-[82%] max-md:text-center">
               <p className="text-gray-500 text-base leading-7 mt-3 tracking-tighter max-md:text-center">
                 Nossa atuação busca valorizar a diversidade, a expressão
                 artística e o patrimônio cultural das comunidades. Colaboramos
