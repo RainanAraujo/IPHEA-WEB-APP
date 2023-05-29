@@ -76,7 +76,7 @@ export default function MenuHamburger(props: MenuHamburgerProps) {
               <a key={i} href={item.href}>
                 <DropdownMenuPrimitive.Item
                   className={clsx(
-                    "flex cursor-default select-none items-center rounded-md px-2 py-2 text-sm outline-none",
+                    `flex cursor-defaultselect-none items-center rounded-md px-2 py-2 text-sm outline-none`,
                     "text-gray-400 focus:bg-gray-50 cursor-pointer"
                   )}
                 >

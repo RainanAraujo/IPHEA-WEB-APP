@@ -12,7 +12,11 @@ export default function OQueFazemos() {
       <ScrollToTop />
       <main className="h-screen flex flex-col justify-between gap-20  max-md:gap-10">
         <Header currentPage="sobrenos" />
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4">
+        <section
+          className="
+        animate-fadeIn
+        max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4"
+        >
           <div className="w-1/2 m-auto max-md:w-full max-md:m-9">
             <Image
               width={591}
@@ -43,7 +47,10 @@ export default function OQueFazemos() {
             </p>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:justify-center max-md:p-0 max-md:gap-4">
+        <section
+          data-aos="slide-left"
+          className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:justify-center max-md:p-0 max-md:gap-4"
+        >
           <div className="w-1/2 m-auto flex flex-col gap-1 max-md:w-[82%] max-md:text-center">
             <h6 className="text-sm text-blue-900 font-bold max-md:text-center">
               Nossos serviços
@@ -69,14 +76,17 @@ export default function OQueFazemos() {
             ></Image>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4">
+        <section
+          data-aos="slide-right"
+          className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4"
+        >
           <div className="w-1/2 m-auto  flex justify-center max-md:w-full max-md:m-9">
             <Image
-              width={591}
+              width={400}
               height={204}
               src="/images/meio_ambiente.svg"
               alt=""
-            ></Image>
+            />
           </div>
           <div className="w-1/2 m-auto flex flex-col gap-1 max-md:w-[82%] max-md:text-center">
             <h6 className="text-sm text-blue-900 font-bold max-md:text-center">
@@ -98,7 +108,10 @@ export default function OQueFazemos() {
             </p>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:justify-center max-md:p-0 max-md:gap-4">
+        <section
+          data-aos="zoom-in"
+          className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:justify-center max-md:p-0 max-md:gap-4"
+        >
           <div className="w-1/2 m-auto flex flex-col gap-1 max-md:w-[82%] max-md:text-center">
             <h6 className="text-sm text-blue-900 font-bold max-md:text-center">
               Nossos serviços
@@ -129,7 +142,10 @@ export default function OQueFazemos() {
           </div>
         </section>
 
-        <section className="max-w-7xl w-full m-auto px-20 flex flex-col gap-4 max-md:justify-center max-md:p-0 max-md:gap-4">
+        <section
+          data-aos="fade-up"
+          className="max-w-7xl w-full m-auto px-20 flex flex-col gap-4 max-md:justify-center max-md:p-0 max-md:gap-4"
+        >
           <div className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-1 max-md:w-[82%] max-md:text-center max-md:p-0">
             <h6 className="text-sm text-blue-900 font-bold ">
               Nossos serviços

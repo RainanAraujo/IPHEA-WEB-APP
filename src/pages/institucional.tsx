@@ -13,7 +13,12 @@ export default function Institucional() {
       <ScrollToTop />
       <main className="h-screen flex flex-col justify-between gap-20 max-md:m-0 max-md:gap-10 max-md:p-0">
         <Header currentPage="institucional" />
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:justify-center max-md:p-0 max-md:gap-4">
+        <section
+          className="max-w-7xl w-full flex justify-between m-auto px-20 
+        gap-20 max-md:flex-wrap-reverse max-md:justify-center 
+        max-md:p-0 max-md:gap-4
+        animate-slide-down"
+        >
           <div className="w-1/2 m-auto max-md:w-full max-md:m-9">
             <Image
               width={591}
@@ -35,7 +40,12 @@ export default function Institucional() {
             </p>
           </div>
         </section>
-        <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap max-md:justify-center max-md:p-0 max-md:gap-4">
+        <section
+          className="max-w-7xl w-full flex justify-between m-auto px-20 
+        gap-20 max-md:flex-wrap max-md:justify-center
+        animate-slide-up 
+        max-md:p-0 max-md:gap-4"
+        >
           <div className="w-1/3 max-md:text-center max-md:w-full  ">
             <h6 className="text-sm text-blue-900 font-bold">
               No que acreditamos
@@ -55,7 +65,11 @@ export default function Institucional() {
             ambientalmente sustentáveis.
           </p>
         </section>
-        <section className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-4 max-md:m-0 max-md:w-full max-md:justify-center max-md:p-9 ">
+
+        <section
+          data-aos="fade-up"
+          className="max-w-3xl w-3/5 m-auto px-20 flex flex-col text-center gap-4 max-md:m-0 max-md:w-full max-md:justify-center max-md:p-9 "
+        >
           <h1 className="text-4xl font-bold tracking-tighter leading-[1.4]">
             Trazendo impacto positivo para o presente e o futuro
           </h1>
@@ -66,7 +80,11 @@ export default function Institucional() {
             apenas para as gerações atuais, mas também para as futuras.
           </p>
         </section>
-        <section className="max-w-7xl w-full m-auto px-20 flex justify-between gap-12 max-md:flex-col max-md:p-0 max-md: max-md:items-center max-md:w-full">
+
+        <section
+          data-aos="fade-left"
+          className="max-w-7xl w-full m-auto px-20 flex justify-between gap-12 max-md:flex-col max-md:p-0 max-md: max-md:items-center max-md:w-full"
+        >
           <div className="w-1/3 border-solid border-2 border-sky-100 rounded-md p-6 flex flex-col gap-2 max-md:w-[80%] ">
             <Target
               className="bg-sky-100 p-3 rounded-t-lg rounded-l-lg "
@@ -109,7 +127,10 @@ export default function Institucional() {
           </div>
         </section>
         <section className="max-w-7xl w-full flex justify-between m-auto px-20 gap-3 max-md:flex-wrap max-md:justify-center  max-md:p-9">
-          <div className="w-1/3 items-center flex flex-col gap-6 m-auto">
+          <div
+            data-aos="fade-right"
+            className="w-1/3 items-center flex flex-col gap-6 m-auto"
+          >
             <SketchLogo
               className=" bg-sky-100 p-3 rounded-t-lg rounded-l-lg  "
               width={64}
@@ -118,7 +139,7 @@ export default function Institucional() {
             ></SketchLogo>
             <h2 className="text-4xl font-bold tracking-tighter">Valores</h2>
           </div>
-          <div className="w-3/4 ">
+          <div data-aos="zoom-in" className="w-3/4">
             <ul className="list-disc leading-10 text-base tracking-tighter text-gray-500  ">
               <li>
                 <span className="font-bold text-gray-900">

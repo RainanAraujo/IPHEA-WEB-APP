@@ -9,6 +9,7 @@ import {
   ListChecks,
   Handshake,
 } from "phosphor-react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function Home() {
   const buttonsNav: {
@@ -49,7 +50,7 @@ export default function Home() {
           className="max-w-7xl w-full h-fit flex justify-between m-auto 
           items-center px-20 max-md:flex-wrap max-md:p-8 max-md:gap-4"
         >
-          <div className="w-1/2 max-md:w-full max-md:text-center">
+          <div className="w-1/2 max-md:w-full max-md:text-center animate-scale-in">
             <h1 className="text-5xl text-slate-900 font-extrabold tracking-tighter leading-[1.15]">
               Instituto para o <br /> Progresso Humano,
               <br /> Econômico e Ambiental
@@ -60,7 +61,9 @@ export default function Home() {
               Bem vindo ao IPHEA!
             </h2>
           </div>
+
           <Image
+            className="animate-fadeIn"
             src="/images/imginicial.svg"
             width={500}
             height={1}
@@ -69,14 +72,15 @@ export default function Home() {
         </section>
         <section className="text-white w-full bg-slate-900 flex flex-col p-12">
           <div className="flex justify-between m-auto flex-row gap-5 max-md:flex-col">
-            {buttonsNav.map((button) => (
+            {buttonsNav.map((button, i) => (
               <Link
-                key={button.title}
+                key={i}
                 href={button.link}
-                className="min-w-[200px] p-3
+                className={`min-w-[200px] p-3
+                 animate-slide-up
                  bg-none border-solid border-2 
                  border-[#375373] rounded-md flex items-center
-                 gap-4 hover:scale-105 transition-all ease-in-out"
+                 gap-4 hover:scale-105 transition-all ease-in-out`}
               >
                 {button.icon}
                 <div className=" text-xl">
