@@ -82,7 +82,7 @@ export default function Institucional() {
         </section>
 
         <section
-          data-aos="fade-left"
+          data-aos="fade-right"
           className="max-w-7xl w-full m-auto px-20 flex justify-between gap-12 max-md:flex-col max-md:p-0 max-md: max-md:items-center max-md:w-full"
         >
           <div className="w-1/3 border-solid border-2 border-sky-100 rounded-md p-6 flex flex-col gap-2 max-md:w-[80%] ">

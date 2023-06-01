@@ -48,7 +48,7 @@ export default function OQueFazemos() {
           </div>
         </section>
         <section
-          data-aos="slide-left"
+          data-aos="slide-right"
           className="max-w-7xl w-full flex justify-between m-auto px-20 gap-20 max-md:flex-wrap-reverse max-md:justify-center max-md:p-0 max-md:gap-4"
         >
           <div className="w-1/2 m-auto flex flex-col gap-1 max-md:w-[82%] max-md:text-center">
