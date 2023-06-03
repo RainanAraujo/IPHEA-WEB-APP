@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer utilities {
   .animation-delay-75 {
     animation-delay: 75ms;
@@ -11,5 +12,6 @@
   }
   .animation-delay-1000 {
     animation-delay: 1s;
+
   }
 }

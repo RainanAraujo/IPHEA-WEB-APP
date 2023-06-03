@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Head from "next/head";
+
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -10,6 +11,7 @@ import {
   Handshake,
 } from "phosphor-react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+
 
 export default function Home() {
   const buttonsNav: {
@@ -44,6 +46,7 @@ export default function Home() {
       <Head>
         <title>Instituto IPHEA</title>
       </Head>
+
       <main className="h-screen ">
         <Header hideNav />
         <section
@@ -99,6 +102,7 @@ export default function Home() {
             <p>© 2023 IPHEA | Todos os Direitos Reservados</p>
           </div>
         </footer>
+
       </main>
     </>
   );
