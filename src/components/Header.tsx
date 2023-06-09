@@ -62,7 +62,7 @@ export default function Header({ hideNav = false, currentPage }: HeaderProps) {
           target="_blank"
         >
           <Phone size={24} weight="fill" className="text-blue-900" />
-          <span className="ml-2 hidden md:block">11 99999 9999</span>
+          <span className="ml-2 hidden md:block">(98) 98404 3761</span>
         </Link>
         <Link
           className="flex items-center duration-100 hover:font-semibold"
