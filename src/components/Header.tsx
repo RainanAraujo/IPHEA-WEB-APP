@@ -66,11 +66,11 @@ export default function Header({ hideNav = false, currentPage }: HeaderProps) {
         </Link>
         <Link
           className="flex items-center duration-100 hover:font-semibold"
-          href={"mailto:ipheaprojetos@gmail.com"}
+          href={"mailto:contato@iphea.org.br"}
           target="_blank"
         >
           <EnvelopeSimple size={24} weight="fill" className="text-blue-900" />
-          <span className="ml-2  hidden md:block">ipheaprojetos@gmail.com</span>
+          <span className="ml-2  hidden md:block">contato@iphea.org.br</span>
         </Link>
         <Link
           className="flex items-center duration-100 hover:font-semibold"
