@@ -1,8 +1,17 @@
-import Header from "@/components/Header";
-import ScrollToTop from "@/components/ScrollToTop";
-import Head from "next/head";
+import Header from '@/components/Header'
+import ScrollToTop from '@/components/ScrollToTop'
+import axios from 'axios'
+import Head from 'next/head'
+import { FormEvent } from 'react'
 
 export default function TrabalheConosco() {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    const formElement = new FormData(e.target as HTMLFormElement)
+    axios.post('/api/sendEmail', formElement).then((res) => {
+      alert('Mensagem enviada com sucesso!')
+    })
+  }
   return (
     <>
       <Head>
@@ -13,15 +22,12 @@ export default function TrabalheConosco() {
         <Header />
         <div className="flex flex-col max-w-3xl w-full m-auto justify-center items-center gap-10 px-9">
           <div className="flex flex-col gap-5">
-            <h1 className="text-2xl font-bold text-slate-900">
-              Solicitar declaração de vínculo
-            </h1>
+            <h1 className="text-2xl font-bold text-slate-900">Solicitar declaração de vínculo</h1>
           </div>
 
           <form
             className="flex flex-col w-full gap-5"
-            method="POST"
-            action="https://formsubmit.co/ipheaprojetos@gmail.com"
+            onSubmit={handleSubmit}
             encType="multipart/form-data"
           >
             <input
@@ -55,7 +61,7 @@ export default function TrabalheConosco() {
                   required
                   className="border border-slate-400 rounded-md p-2"
                   type="text"
-                  name="cpf"
+                  name="cpfCnpj"
                 />
               </fieldset>
             </div>
@@ -74,13 +80,21 @@ export default function TrabalheConosco() {
                 <input
                   className="border border-slate-400 rounded-md p-2"
                   type="tel"
-                  name="telefone"
+                  name="whatsapp"
                   required
                 />
               </fieldset>
             </div>
+            <input
+              type="hidden"
+              name="typeSubject"
+              value="vínculo de colaborador"
+            />
             <div className="flex w-full justify-end ">
-              <button className="bg-blue-900 hover:bg-blue-950 duration-200 w-full md:max-w-xs text-white rounded-md p-2">
+              <button
+                type="submit"
+                className="bg-blue-900 hover:bg-blue-950 duration-200 w-full md:max-w-xs text-white rounded-md p-2"
+              >
                 Enviar
               </button>
             </div>
@@ -94,5 +108,5 @@ export default function TrabalheConosco() {
         </footer>
       </main>
     </>
-  );
+  )
 }

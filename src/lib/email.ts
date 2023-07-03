@@ -1,38 +1,30 @@
-import nodemailer from "nodemailer";
-import { type } from "os";
+import nodemailer from 'nodemailer'
+import { Attachment } from 'nodemailer/lib/mailer'
 
 type EmailPayload = {
-  to: string;
-  subject: string;
-  html: string;
-};
-
-type EmailAttachment = {
-  filename: string;
-  content: string | Buffer;
-};
+  to: string
+  subject: string
+  html: string
+}
 
 const smtpOptions = {
-  host: process.env.SMTP_HOST || "smtp.mailtrap.io",
-  port: parseInt(process.env.SMTP_PORT || "2525"),
-  secure: false,
+  host: process.env.SMTP_HOST,
+  port: parseInt(process.env.SMTP_PORT!),
+  secure: true,
   auth: {
-    user: process.env.SMTP_USER || "user",
-    pass: process.env.SMTP_PASSWORD || "password",
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASSWORD,
   },
-};
+}
 
-export const sendEmail = async (
-  data: EmailPayload,
-  attachments: EmailAttachment[] = []
-) => {
+export const sendEmail = async (data: EmailPayload, attachments?: Attachment[]) => {
   const transporter = nodemailer.createTransport({
     ...smtpOptions,
-  });
+  })
 
   return await transporter.sendMail({
-    from: process.env.SMTP_FROM_EMAIL,
+    from: `Iphea WebSite <contato@iphea.org.br>`,
     ...data,
     attachments,
-  });
-};
+  })
+}
