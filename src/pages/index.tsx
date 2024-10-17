@@ -12,7 +12,6 @@ import {
 } from "phosphor-react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
-
 export default function Home() {
   const buttonsNav: {
     title: string;
@@ -47,7 +46,7 @@ export default function Home() {
         <title>Instituto IPHEA</title>
       </Head>
 
-      <main className="h-screen ">
+      <main className="h-screen flex flex-col   ">
         <Header hideNav />
         <section
           className="max-w-7xl w-full h-fit flex justify-between m-auto 
@@ -102,7 +101,6 @@ export default function Home() {
             <p>© 2023 IPHEA | Todos os Direitos Reservados</p>
           </div>
         </footer>
-
       </main>
     </>
   );
